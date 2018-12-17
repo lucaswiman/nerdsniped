@@ -1,5 +1,6 @@
 PHONY: test
 test: .venv
+	USE_REFERENCE_IMPLEMENTATION=1 .venv/bin/pytest test.py
 	.venv/bin/pytest test.py
 
 .venv: requirements.txt
