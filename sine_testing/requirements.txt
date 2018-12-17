@@ -1,0 +1,3 @@
+hypothesis
+sympy
+pytest
