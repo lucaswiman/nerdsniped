@@ -1,3 +1,5 @@
 hypothesis
 sympy
 pytest
+numpy
+scipy
